@@ -1,0 +1,17 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Основная страница";
+}
+
+
+<div class="text-center">
+    <h1 class="display-4">Добро пожаловать!</h1>
+    <p>Рандомные факты только тут :З</p>
+    <h2>@Model.CurrentFact</h2>
+    <form method="post">
+    <button type="RndF">Рандомный Факт</button>
+    </form>
+
+
+</div>

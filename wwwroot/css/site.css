@@ -1,5 +1,85 @@
+:root {
+  --focus-ring-color: #258cfb;
+  --btn-bg: #ffd900;
+  --btn-bg-hover: #b6aa03;
+  --btn-text: rgb(0, 0, 0);
+  --background-color: #ffffff;
+  --h1-color: black;
+  --h2-color: black;
+  --p-color: gray;
+}
+
+.dark-theme {
+  --focus-ring-color: #ff9800; 
+  --btn-bg: #333333;           
+  --btn-bg-hover: #555555;     
+  --btn-text: #ffffff;
+  --background-color: rgb(8, 5, 5);
+  --h1-color: white;
+  --h2-color: white;
+  --p-color: gray;
+}
+
+
+.forest-theme {
+  --focus-ring-color: #2e7d32; 
+  --btn-bg: #4caf50;           
+  --btn-bg-hover: #3b873e;     
+  --btn-text: #ffffff;
+  --background-color: #e8f5e9; 
+  --h1-color: #1b5e20;         
+  --h2-color: #2e7d32;
+  --p-color: #4e7051;
+}
+
+
+.moon-theme {
+  --focus-ring-color: #90caf9; 
+  --btn-bg: #1a237e;           
+  --btn-bg-hover: #283593;     
+  --btn-text: #ffffff;
+  --background-color: #0d1117; 
+  --h1-color: #e3f2fd;         
+  --h2-color: #90caf9;
+  --p-color: #8b949e;
+}
+
 html {
   font-size: 14px;
+  position: relative;
+  min-height: 100%;
+}
+
+h1 {
+  color: var(--h1-color);
+}
+
+h2 {
+  color: var(--h2-color);
+}
+
+p {
+  color: var(--p-color);
+}
+
+hr {
+  border: 0;                  
+  border-top: 2px solid #1a1a1a98; 
+  margin: 20px 0;             
+}
+
+img {
+  border: 5px solid #f1005d;
+  border-radius: 8px; 
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+
+}
+
+img:hover {
+  opacity: 1.0;
+  filter: grayscale(100%); 
 }
 
 @media (min-width: 768px) {
@@ -8,39 +88,49 @@ html {
   }
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
 body {
   margin-bottom: 60px;
+  background-color: var(--background-color);
+  transition: background-color 0.3s, color 0.3s;
 }
 
-.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
+.btn:focus, 
+.btn:active:focus, 
+.btn-link.nav-link:focus, 
+.form-control:focus, 
+.form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem var(--focus-ring-color);
+}
+
+.form-floating > .form-control-plaintext::placeholder, 
+.form-floating > .form-control::placeholder {
   color: var(--bs-secondary-color);
   text-align: end;
 }
 
-.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
+.form-floating > .form-control-plaintext:focus::placeholder, 
+.form-floating > .form-control:focus::placeholder {
   text-align: start;
 }
 
 button {
-  background-color: #ffd900;
-  color: rgb(0, 0, 0);              
+  background-color: var(--btn-bg);
+  color: var(--btn-text);              
   padding: 10px 20px;      
   border: none;             
   border-radius: 5px;       
   cursor: pointer;           
   font-size: 16px;           
-  transition: 0.3s;          
+  transition: background-color 0.3s, color 0.3s; 
 }
 
 button:hover {
-  background-color: #b6aa03; 
+  background-color: var(--btn-bg-hover); 
+}
+
+.buttons-container {
+  display: flex;
+  gap: 200px; 
+  justify-content: center; 
+  align-items: center;
 }

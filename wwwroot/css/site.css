@@ -44,6 +44,18 @@
   --p-color: #8b949e;
 }
 
+
+.bloody-theme {
+  --focus-ring-color: #ca6557; 
+  --btn-bg: #7e1a1a;           
+  --btn-bg-hover: #932828;     
+  --btn-text: #ffffff;
+  --background-color: #250101; 
+  --h1-color: #e3f2fd;         
+  --h2-color: #c07b7b;
+  --p-color: #8b949e;
+}
+
 html {
   font-size: 14px;
   position: relative;

@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const btn = document.getElementById('toggle-btn');
     
-    const themes = ['light', 'dark', 'forest', 'moon'];
+    const themes = ['light', 'dark', 'forest', 'moon', "bloody"];
     
     const savedTheme = localStorage.getItem('theme') || 'light';
     

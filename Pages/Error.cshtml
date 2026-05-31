@@ -4,8 +4,9 @@
     ViewData["Title"] = "Error";
 }
 
-<h1 class="text-danger">Error.</h1>
-<h2 class="text-danger">An error occurred while processing your request.</h2>
+<h1 class="text-danger">Ошибка :(</h1>
+<img style="  width: 150px; height: 150px;   border-radius: 8px; border: 2px solid #ccc;" src="/css/img/UpsPng.png" alt="errorPioner">
+<h2 class="text-danger">При обработке вашего запроса произошла ошибка.</h2>
 
 @if (Model.ShowRequestId)
 {
@@ -14,6 +15,7 @@
     </p>
 }
 
+<hr>
 <h3>Development Mode</h3>
 <p>
     Swapping to the <strong>Development</strong> environment displays detailed information about the error that occurred.

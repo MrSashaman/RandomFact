@@ -92,7 +92,7 @@ C:\Users\Alexsandr Pimonov\Desktop\VSTC_Projects\RandomFact\obj\Debug\net9.0\ref
 C:\Users\Alexsandr Pimonov\Desktop\VSTC_Projects\RandomFact\obj\Debug\net9.0\RandomFact.pdb
 C:\Users\Alexsandr Pimonov\Desktop\VSTC_Projects\RandomFact\obj\Debug\net9.0\RandomFact.genruntimeconfig.cache
 C:\Users\Alexsandr Pimonov\Desktop\VSTC_Projects\RandomFact\obj\Debug\net9.0\ref\RandomFact.dll
-C:\Users\Alexsandr Pimonov\Desktop\VSTC_Projects\RandomFact\obj\Debug\net9.0\compressed\c1ew2j8dy5-vvabm892n8.gz
 C:\Users\Alexsandr Pimonov\Desktop\VSTC_Projects\RandomFact\obj\Debug\net9.0\RandomFact.sourcelink.json
 C:\Users\Alexsandr Pimonov\Desktop\VSTC_Projects\RandomFact\obj\Debug\net9.0\compressed\qauvkrbp27-cxuinf52i5.gz
-C:\Users\Alexsandr Pimonov\Desktop\VSTC_Projects\RandomFact\obj\Debug\net9.0\compressed\c7r7vll3ow-1kp9w0qdy4.gz
+C:\Users\Alexsandr Pimonov\Desktop\VSTC_Projects\RandomFact\obj\Debug\net9.0\compressed\c7r7vll3ow-rmcvita58d.gz
+C:\Users\Alexsandr Pimonov\Desktop\VSTC_Projects\RandomFact\obj\Debug\net9.0\compressed\c1ew2j8dy5-t721kchqw0.gz

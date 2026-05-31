@@ -28,8 +28,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Alexsandr Pimonov/Desktop/VSTC_Projects/RandomFact/Pages/MemePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVtZVBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Alexsandr Pimonov/Desktop/VSTC_Projects/RandomFact/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alexsandr Pimonov/Desktop/VSTC_Projects/RandomFact/Pages/RandomName.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmFuZG9tTmFtZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Alexsandr Pimonov/Desktop/VSTC_Projects/RandomFact/Pages/Shared/_ValidationScriptsPartial.cshtml]
